@@ -3,7 +3,7 @@ A web application for D&amp;D magic classes to track spells known, spells prepar
 
 Project Goals:<br>
 
-User Login
+User Login<br>
 Character Creation ( using very basic ability scores )
 Class Selection ( D&D 5e classes to begin )
 Custom Classes ( Perhaps in Version 2 )
