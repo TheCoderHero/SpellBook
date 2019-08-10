@@ -1,0 +1,19 @@
+{
+  "name": "spellbook",
+  "version": "1.0.0",
+  "description": "Web application for D&D magic classes 5e.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheCoderHero/SpellBook.git"
+  },
+  "author": "TheCoderHero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheCoderHero/SpellBook/issues"
+  },
+  "homepage": "https://github.com/TheCoderHero/SpellBook#readme"
+}
