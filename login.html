@@ -4,6 +4,8 @@
 
 <head>
     <title>D&D Master Spell Book</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type='text/css' href='master.css'>
 </head>
 
 <body>
@@ -11,11 +13,18 @@
     <h1>Speak the password and</h1>
     <h1>unlock the magic</h1>
     <h1>within</h1>
-    <p>Username:</p> <input type='text'>
-    <p>Password:</p> <input type='text'>
-    <button>Enter</button>
-    <button>Registration</button>
-    
+    <form id='loginForm'>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" class="form-control" id="username" placeholder="Enter Username">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-success">Register</button>
+      </form>
 </body>
 
 </html>
